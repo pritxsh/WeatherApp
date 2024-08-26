@@ -12,16 +12,17 @@ Technologies Used
 
 ## Features
 
-🌦️ Real-time Weather Data: Get up-to-date weather information for any city.
-🌍 Global Search: Search for weather data in any city across the globe.
-📊 Detailed Forecast: View temperature, humidity, wind speed, and more.
-🕒 Responsive Design: Works seamlessly on both desktop and mobile devices.
-🎨 Modern UI: A clean and intuitive user interface using Material UI components.
+- 🌦️ Real-time Weather Data: Get up-to-date weather information for any city.
+- 🌍 Global Search: Search for weather data in any city across the globe.
+- 📊 Detailed Forecast: View temperature, humidity, wind speed, and more.
+- 🕒 Responsive Design: Works seamlessly on both desktop and mobile devices.
+- 🎨 Modern UI: A clean and intuitive user interface using Material UI components.
 
 ## Demo
 
-Installation
-Follow these steps to run the WeatherApp on your local machine:
+### Installation
+
+- Follow these steps to run the WeatherApp on your local machine:
 
 Clone the repository:
 
@@ -44,9 +45,9 @@ npm run dev
 
 ## Technologies Used
 
-React: A JavaScript library for building user interfaces.
-Vite: A fast build tool and development server.
-Material UI: A popular React UI framework for styling and design.
-CSS: For custom styling.
-Fetch API: To make HTTP requests to the weather service.
-OpenWeather API: Providing weather data.
+- React: A JavaScript library for building user interfaces.
+- Vite: A fast build tool and development server.
+- Material UI: A popular React UI framework for styling and design.
+- CSS: For custom styling.
+- Fetch API: To make HTTP requests to the weather service.
+- OpenWeather API: Providing weather data.
