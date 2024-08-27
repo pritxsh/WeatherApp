@@ -7,7 +7,8 @@ const Search = ({search,setSearch,handleSearch}) => {
   return (
     <>
     <div className="searchcontainer">
-        <input type="text" id='inputcity' placeholder='Enter City Name' value={search} autoComplete='false' onChange={(e)=>setSearch(e.target.value)}/>
+        <input type="text" id='inputcity' placeholder='Enter City Name' value={search} autoComplete='false' onChange={(e)=>setSearch(e.target.value)} onKeyDown={(e)=> e.key === "Enter" && handleSearch()
+        }/>
         <button id='searchbtn' onClick={handleSearch}>
        <FaSearch size={20}/>
         </button>

@@ -23,7 +23,7 @@ const WeatherApp = () => {
        }
    }
       catch(e){
-    //  console.log(e);
+     console.log(e);
       }
 
     }
